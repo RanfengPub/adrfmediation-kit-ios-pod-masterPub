@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name = "ADRFMediationKit"
+  s.name = "ADRFMediationKitPub"
   s.version = "0.7.4.12031"
   s.summary = "A short description of ADRFMediationKit."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"business@ssdmobile.cn"=>"business@ssdmobile.cn"}
-  s.homepage = "https://github.com/ADRanfeng/adrfmediation-kit-ios-pod.git"
+  s.homepage = "https://github.com/RanfengPub/adrfmediation-kit-ios-pod-masterPub.git"
   s.description = "TODO: Add long description of the pod here."
   s.source = {
-    :git => 'https://github.com/ADRanfeng/adrfmediation-kit-ios-pod.git',
+    :git => 'https://github.com/RanfengPub/adrfmediation-kit-ios-pod-masterPub.git',
     :tag => s.version.to_s
   }
   s.libraries = 'z','c++'
