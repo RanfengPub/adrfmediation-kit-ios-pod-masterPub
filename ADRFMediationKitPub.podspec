@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.ios.deployment_target    = '9.0'
+  s.ios.deployment_target    = '12.0'
   s.vendored_frameworks = ['ADRFMediationKit/Classes/ADRFMediationKit.xcframework','ADRFMediationKit/Classes/ADRFMediationKitIDFA.xcframework']
 end
