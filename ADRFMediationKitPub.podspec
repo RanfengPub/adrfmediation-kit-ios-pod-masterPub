@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
   
-  s.libraries = 'z','c++'
+  s.libraries = 'z','c++','resolv'
   s.frameworks = 'UIKit', 'AdSupport', 'SystemConfiguration', 'CoreTelephony'
   s.xcconfig = {'OTHER_LDFLAGS' => '-ObjC'}
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
