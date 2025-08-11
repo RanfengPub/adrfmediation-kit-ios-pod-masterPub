@@ -78,4 +78,8 @@ static inline CGFloat ADRfKitScreenScale(void) {
 #define kADRFScreenHeight ADRfKitScreenSize().height
 #endif
 
+#ifndef kADRFIsPad
+#define kADRFIsPad ([UIDevice currentDevice].userInterfaceIdiom == UIUserInterfaceIdiomPad)
+#endif
+
 #endif /* ADRFMediationKitMacros_h */
