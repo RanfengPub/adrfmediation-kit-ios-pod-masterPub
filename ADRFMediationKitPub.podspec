@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   
   s.name = "ADRFMediationKitPub"
-  s.version = "0.7.6.02251"
+  s.version = "0.7.7.08061"
   s.summary = "A short description of ADRFMediationKit."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   

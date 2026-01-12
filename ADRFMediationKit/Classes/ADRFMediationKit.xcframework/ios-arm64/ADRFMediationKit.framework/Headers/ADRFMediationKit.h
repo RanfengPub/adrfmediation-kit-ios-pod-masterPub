@@ -3,7 +3,7 @@
 //  ADRFMediationKit 0.6.1.03232
 //
 //  Created by 陶冶明 on 2020/11/7.
-//  Updated by Suancai on 2023/03/24.
+//  Updated by Suancai on 2025/10/16.
 //
 
 #if __has_include(<ADRFMediationKit/ADRFMediationKit.h>)
